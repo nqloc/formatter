@@ -1,12 +1,11 @@
-Web tool for formating data
-Demo at: [Link](https://nqloc.github.io)
+> Web tool for formating data [Demo](https://nqloc.github.io)
 
-# Json parser
-Input
+## Json parser
+### Input
 ```
 {"name":"John", "age":31, "city":"New York"}
 ```
-Output
+### Output
 ```
 {
     "name": "John",
@@ -15,12 +14,12 @@ Output
 }
 ```
 
-# Xml parser
-Input
+## Xml parser
+### Input
 ```
 <?xml version="1.0" encoding="UTF-8"?><note><to>Tove</to><from>Jani</from><heading>Reminder</heading><body>Don't forget me this weekend!</body></note>
 ```
-Output
+### Output
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <note>
@@ -31,12 +30,12 @@ Output
 </note>
 ```
 
-# CSS parser
-Input
+## CSS parser
+### Input
 ```
 h1 {background-color: green;}div {background-color: lightblue;}p {background-color: yellow;}
 ```
-Output
+### Output
 ```
 h1 {
      background-color: green;
@@ -49,12 +48,12 @@ h1 {
 }
 ```
 
-# SQL parser
-Input
+## SQL parser
+### Input
 ```
 SELECT Count(*) AS DistinctCountries FROM(SELECT DISTINCT Country FROM Customers);
 ```
-Output
+### Output
 ```
 SELECT Count(*) AS DistinctCountries
 FROM 
