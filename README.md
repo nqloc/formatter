@@ -1,4 +1,4 @@
-> Web tool for formating data [Demo](https://nqloc.github.io)
+> Web tool for formating data [Demo](https://nqloc.github.io/tools/formatter/)
 
 ## Json parser
 ### Input
