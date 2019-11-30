@@ -1,4 +1,13 @@
-> Web tool for formating data [Demo](https://nqloc.github.io/tools/formatter/)
+> Tool for formating data (Json, Xml, CSS, SQL, ...)
+>
+> [Demo](https://nqloc.github.io/tools/formatter/)
+
+---
+
+1. [Json parser](#json-parser)
+2. [Xml parser](#xml-parser)
+3. [Css parser](#css-parser)
+4. [Sql parser](#sql-parser)
 
 ## Json parser
 ### Input
@@ -48,12 +57,12 @@ h1 {
 }
 ```
 
-## SQL parser
-### Input
+# SQL parser
+## Input
 ```
 SELECT Count(*) AS DistinctCountries FROM(SELECT DISTINCT Country FROM Customers);
 ```
-### Output
+## Output
 ```
 SELECT Count(*) AS DistinctCountries
 FROM 
